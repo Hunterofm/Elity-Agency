@@ -12,120 +12,92 @@
             margin: 0;
             padding: 0;
         }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px 20px;
+            text-align: center;
+            background-image: url('https://images.unsplash.com/photo-1610541407345-6ab1b236e07e?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 5px #000;
+        }
         .container {
             max-width: 1000px;
             margin: auto;
             padding: 20px;
         }
-        .header {
-            text-align: center;
-            padding: 60px 20px 20px;
-        }
-        .header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .header p {
-            font-size: 1.2em;
-            margin-top: 10px;
-            opacity: 0.9;
-        }
         .section {
             background: rgba(255, 255, 255, 0.1);
-            border-radius: 15px;
             padding: 30px;
+            border-radius: 15px;
             margin: 30px 0;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
         }
         h2 {
-            margin-bottom: 20px;
-        }
-        p {
-            line-height: 1.6;
+            border-bottom: 1px solid white;
+            padding-bottom: 10px;
         }
         input, textarea, button {
             width: 100%;
             padding: 12px;
-            margin: 10px 0;
+            margin-top: 10px;
             border: none;
-            border-radius: 5px;
-            font-size: 1em;
+            border-radius: 8px;
         }
         button {
-            background: #ff0080;
+            background-color: #ff0080;
             color: white;
             font-weight: bold;
-            transition: background 0.3s ease;
+            cursor: pointer;
+            transition: 0.3s ease;
         }
         button:hover {
-            background: #e60073;
+            background-color: #e60073;
         }
         a {
-            color: #ffccff;
+            color: #ffb3ec;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        .image-banner {
-            width: 100%;
-            border-radius: 20px;
-            margin: 30px 0;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            opacity: 0.8;
-            font-size: 0.9em;
-        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Elity Agency</h1>
+        <p>Agence de gestion OnlyFans haut de gamme</p>
+    </header>
+
     <div class="container">
-        <div class="header">
-            <h1>Elity Agency</h1>
-            <p>Agence de gestion OnlyFans professionnelle & confidentielle</p>
-            <img src="https://source.unsplash.com/1000x400/?luxury,model" alt="Bannière professionnelle" class="image-banner">
+        <div class="section">
+            <h2>Nos Services</h2>
+            <p>✅ Gestion complète de compte OnlyFans</p>
+            <p>📸 Création de contenu personnalisé et exclusif</p>
+            <p>🛡️ Protection des droits d’auteur & anonymat</p>
+            <p>🚀 Développement de marque et stratégie marketing</p>
         </div>
 
         <div class="section">
-            <h2>✨ Nos Services</h2>
-            <p>Nous offrons un accompagnement complet pour les créateurs et créatrices OnlyFans :</p>
-            <ul style="text-align: left; max-width: 700px; margin: auto;">
-                <li>📈 Gestion & croissance de votre compte</li>
-                <li>🎥 Création de contenu de qualité</li>
-                <li>🔒 Protection des contenus & des droits</li>
-                <li>🧠 Stratégies marketing personnalisées</li>
-                <li>📅 Planification & organisation du contenu</li>
-            </ul>
+            <h2>FAQ</h2>
+            <p><strong>Comment puis-je rejoindre l’agence ?</strong><br>Remplissez le formulaire ci-dessous ou contactez-nous par email.</p>
+            <p><strong>Quels sont vos tarifs ?</strong><br>Nos services sont sur mesure selon le profil de chaque créateur(trice).</p>
         </div>
 
         <div class="section">
-            <h2>📩 Contact & Recrutement</h2>
-            <p>Vous souhaitez collaborer avec nous ou poser une question ? Contactez-nous par email :</p>
-            <p><strong>Email :</strong> <a href="mailto:elity.agency.ofm@gmail.com">elity.agency.ofm@gmail.com</a></p>
-
+            <h2>Contactez-nous</h2>
+            <p>📩 Email : <a href="mailto:elity.agency.ofm@gmail.com">elity.agency.ofm@gmail.com</a></p>
             <form>
                 <input type="text" placeholder="Nom" required>
                 <input type="email" placeholder="Email" required>
                 <textarea placeholder="Votre message" rows="5" required></textarea>
                 <button type="submit">Envoyer</button>
             </form>
-        </div>
-
-        <div class="section">
-            <h2>❓ FAQ</h2>
-            <p><strong>Comment rejoindre Elity Agency ?</strong><br>
-                Remplissez le formulaire de contact ci-dessus et nous vous répondrons rapidement.</p>
-            <p><strong>Quels sont vos tarifs ?</strong><br>
-                Nos tarifs sont personnalisés selon le profil, les objectifs et les besoins du créateur.</p>
-            <p><strong>Est-ce confidentiel ?</strong><br>
-                Absolument. La confidentialité et la sécurité de nos modèles sont une priorité.</p>
-        </div>
-
-        <div class="footer">
-            &copy; 2025 Elity Agency. Tous droits réservés.
         </div>
     </div>
 </body>
