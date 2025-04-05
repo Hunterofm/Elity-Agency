@@ -3,94 +3,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elity Agency - OnlyFans Management</title>
+  <title>Elity Agency – OnlyFans Management</title>
   <style>
     body {
+      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #ff0080, #8000ff);
       color: white;
-      margin: 0;
-      padding: 0;
     }
     header {
-      background: rgba(0, 0, 0, 0.5);
-      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.6);
       text-align: center;
+      padding: 80px 20px;
+      background-image: url('https://images.unsplash.com/photo-1613054140735-6ab1b236e07e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
     }
     header h1 {
-      font-size: 48px;
+      font-size: 3rem;
       margin: 0;
     }
     header p {
-      font-size: 18px;
+      font-size: 1.2rem;
       margin-top: 10px;
+      font-weight: 300;
     }
     section {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
     }
-    .faq h3 {
-      margin-top: 30px;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
     }
-    .formulaire input, .formulaire textarea {
-      width: 100%;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    form {
+      display: grid;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
       padding: 12px;
-      margin-top: 10px;
       border: none;
       border-radius: 8px;
+      font-size: 1rem;
     }
-    .formulaire button {
-      margin-top: 15px;
-      background-color: white;
-      color: #8000ff;
+    button {
+      padding: 12px;
       border: none;
-      padding: 12px 24px;
       border-radius: 8px;
-      cursor: pointer;
+      background-color: #ffffff;
+      color: #8000ff;
       font-weight: bold;
+      cursor: pointer;
     }
     footer {
+      background: #111;
+      padding: 20px;
       text-align: center;
-      padding: 30px 10px;
-      font-size: 14px;
-      background-color: rgba(0,0,0,0.2);
+      font-size: 0.9rem;
+    }
+    .faq-item {
+      margin-bottom: 15px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Elity Agency</h1>
-    <p>OnlyFans Management • Création de service • Protection de contenu • Aide au développement créatif</p>
+    <h1>ELITY AGENCY</h1>
+    <p>Prise de conscience → Volonté → Succès</p>
   </header>
 
-  <section class="presentation">
-    <h2>Qui sommes-nous ?</h2>
-    <p>Elity Agency accompagne les créateurs et créatrices sur OnlyFans depuis 2025. Nous vous aidons à développer votre audience, sécuriser vos contenus et automatiser votre business.</p>
+  <section>
+    <h2>💼 Nos Services</h2>
+    <ul>
+      <li>🔧 Gestion de compte OnlyFans</li>
+      <li>🎨 Aide à la création de contenu</li>
+      <li>🛡️ Protection & sécurité du contenu</li>
+      <li>🚀 Coaching et accompagnement</li>
+    </ul>
   </section>
 
-  <section class="faq">
-    <h2>FAQ</h2>
-    <h3>🔹 Comment rejoindre l'agence ?</h3>
-    <p>Remplis le formulaire ci-dessous ou écris-nous à <strong>elity.agency.ofm@gmail.com</strong>.</p>
-    <h3>🔹 Est-ce que vous prenez une commission ?</h3>
-    <p>Oui, mais elle est adaptée selon votre profil. Transparence garantie dès le début.</p>
-    <h3>🔹 Dois-je montrer mon visage ?</h3>
-    <p>Pas forcément. Nous travaillons avec différents types de modèles (visage visible ou non).</p>
+  <section>
+    <h2>🙌 Pourquoi Elity ?</h2>
+    <p>Nous sommes une agence jeune, passionnée et dévouée à aider nos modèles à grandir. On débute, mais on donne tout 💪</p>
   </section>
 
-  <section class="formulaire">
-    <h2>Contact & Recrutement</h2>
+  <section>
+    <h2>📩 Rejoins l'agence</h2>
     <form>
-      <input type="text" placeholder="Nom / Pseudo" required />
-      <input type="email" placeholder="Adresse email" required />
-      <textarea rows="5" placeholder="Parlez-nous de vous ou posez votre question..."></textarea>
-      <button type="submit">Envoyer</button>
+      <input type="text" placeholder="Prénom" required>
+      <input type="number" placeholder="Âge" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Réseaux sociaux / Message"></textarea>
+      <button type="submit">Postuler maintenant 💌</button>
     </form>
   </section>
 
+  <section>
+    <h2>❓ FAQ</h2>
+    <div class="faq-item">
+      <strong>Faut-il déjà avoir un compte OnlyFans ?</strong>
+      <p>Non, nous aidons même les débutant(e)s à se lancer.</p>
+    </div>
+    <div class="faq-item">
+      <strong>L’agence prend-elle un pourcentage ?</strong>
+      <p>Oui, mais uniquement si vous gagnez. Zéro risque, que du win-win 💸</p>
+    </div>
+    <div class="faq-item">
+      <strong>Je suis totalement nouveau, c’est un problème ?</strong>
+      <p>Pas du tout ! C’est même pour ça qu’on est là 🤝</p>
+    </div>
+  </section>
+
   <footer>
-    © 2025 Elity Agency • Contact : <a style="color: white; text-decoration: underline" href="mailto:elity.agency.ofm@gmail.com">elity.agency.ofm@gmail.com</a>
+    Contact : <a href="mailto:elity.agency.ofm@gmail.com" style="color: #fff; text-decoration: underline;">elity.agency.ofm@gmail.com</a><br>
+    &copy; 2025 Elity Agency. Tous droits réservés.
   </footer>
 </body>
 </html>
