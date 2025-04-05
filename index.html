@@ -1,129 +1,159 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elity Agency - OnlyFans Management</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a2d9d6da3b.js" crossorigin="anonymous"></script>
-  <style>
-    * {
-      margin: 0; padding: 0; box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-    body {
-      background: linear-gradient(135deg, #ff0080, #8000ff);
-      color: white;
-    }
-    header {
-      background: url('https://images.unsplash.com/photo-1611605698335-5b8f5c8d4b2e?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
-      text-align: center;
-      padding: 100px 20px;
-      backdrop-filter: blur(2px);
-    }
-    header h1 {
-      font-size: 3rem;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-    .cta-button {
-      margin-top: 20px;
-      padding: 12px 24px;
-      background: #fff;
-      color: #8000ff;
-      border: none;
-      font-weight: bold;
-      border-radius: 30px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    .cta-button:hover {
-      background: #f0f0f0;
-    }
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .services, .faq {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      margin-top: 40px;
-    }
-    .card {
-      background: rgba(255,255,255,0.1);
-      border-radius: 20px;
-      padding: 30px;
-      backdrop-filter: blur(4px);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    }
-    form {
-      max-width: 500px;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    input, textarea {
-      padding: 12px;
-      border-radius: 10px;
-      border: none;
-      outline: none;
-    }
-    footer {
-      background: rgba(0, 0, 0, 0.4);
-      text-align: center;
-      padding: 30px 20px;
-      margin-top: 60px;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elity Agency - Gestion de comptes OnlyFans, création de contenu et accompagnement personnalisé.">
+    <title>Elity Agency - L’élite du management OnlyFans</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: linear-gradient(135deg, #ff007b, #ff6699);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #fff;
+            color: #ff007b;
+            border: none;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff6699;
+            color: white;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .services, .testimonials, .faq {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service, .testimonial, .faq-item {
+            background: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+        .service:hover, .testimonial:hover, .faq-item:hover {
+            transform: translateY(-10px);
+        }
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #ff007b;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ff6699;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Elity Agency</h1>
+
+<header>
+    <h1>Bienvenue chez Elity Agency</h1>
     <p>Prise de conscience ➤ Volonté ➤ Succès</p>
     <button class="cta-button">Rejoindre l’agence ✨</button>
-  </header>
+</header>
 
-  <section>
-    <h2>💼 Nos Services</h2>
-    <div class="services">
-      <div class="card">🔧 Gestion OnlyFans complète</div>
-      <div class="card">🧠 Aide créative & stratégie</div>
-      <div class="card">🛡️ Protection de vos contenus</div>
-      <div class="card">🚀 Accompagnement personnalisé</div>
+<section class="section services">
+    <h2>Nos Services</h2>
+    <div class="service">
+        <div class="service-icon">🔧</div>
+        <h3>Gestion de compte</h3>
+        <p>Nous optimisons ton compte pour maximiser tes revenus sur OnlyFans.</p>
     </div>
-  </section>
+    <div class="service">
+        <div class="service-icon">👨‍🎨</div>
+        <h3>Création de contenu</h3>
+        <p>Des photos, vidéos et stratégies adaptées à ton audience et ton style.</p>
+    </div>
+    <div class="service">
+        <div class="service-icon">🛡️</div>
+        <h3>Protection de contenu</h3>
+        <p>On protège ton contenu contre le piratage et le vol de photos.</p>
+    </div>
+    <div class="service">
+        <div class="service-icon">🚀</div>
+        <h3>Accompagnement personnalisé</h3>
+        <p>Une équipe dédiée pour t’aider à chaque étape de ta carrière sur OnlyFans.</p>
+    </div>
+</section>
 
-  <section>
-    <h2>📬 Rejoins-nous</h2>
+<section class="section testimonials">
+    <h2>Pourquoi nous faire confiance ?</h2>
+    <div class="testimonial">
+        <p>"Grâce à Elity Agency, mes revenus ont doublé en 3 mois. L’accompagnement est exceptionnel !" - Sarah</p>
+    </div>
+    <div class="testimonial">
+        <p>"Une équipe réactive et professionnelle. Je me sens soutenue chaque jour." - Emma</p>
+    </div>
+    <div class="testimonial">
+        <p>"Le conseil stratégique sur la création de contenu m’a permis d’atteindre un nouveau public." - Julia</p>
+    </div>
+</section>
+
+<section class="section faq">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+        <h3>Faut-il déjà avoir un compte OnlyFans ?</h3>
+        <p>Non, nous pouvons t'aider à démarrer et optimiser ton profil dès le début.</p>
+    </div>
+    <div class="faq-item">
+        <h3>L’agence prend-elle un pourcentage ?</h3>
+        <p>Oui, nous prenons un petit pourcentage des revenus pour couvrir nos services.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Je suis débutante, est-ce un problème ?</h3>
+        <p>Absolument pas ! Nous accompagnons les créateurs à tous les niveaux.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Rejoindre l’agence</h2>
     <form>
-      <input type="text" placeholder="Ton prénom" required>
-      <input type="number" placeholder="Ton âge" required>
-      <input type="email" placeholder="Ton email" required>
-      <input type="text" placeholder="Ton Instagram / Réseau social">
-      <textarea placeholder="Parle-nous un peu de toi..." rows="4"></textarea>
-      <button class="cta-button" type="submit">Postuler maintenant 💌</button>
+        <input type="text" placeholder="Prénom" required><br><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <input type="text" placeholder="Instagram ou Twitter" required><br><br>
+        <button class="cta-button" type="submit">Postuler maintenant 💌</button>
     </form>
-  </section>
+</section>
 
-  <section>
-    <h2>❓ Questions fréquentes</h2>
-    <div class="faq">
-      <div class="card">Faut-il déjà avoir un compte OnlyFans ? <br><strong>Non, on t’accompagne dès le début.</strong></div>
-      <div class="card">Prenez-vous un pourcentage ? <br><strong>Oui, mais tout est transparent et flexible.</strong></div>
-      <div class="card">Je suis débutante, c’est grave ? <br><strong>Pas du tout. On est là pour ça.</strong></div>
-    </div>
-  </section>
+<footer>
+    <p>Contactez-nous à : <a href="mailto:elity.agency.ofm@gmail.com">elity.agency.ofm@gmail.com</a></p>
+    <p>&copy; 2025 Elity Agency. Tous droits réservés.</p>
+</footer>
 
-  <footer>
-    Contact : <a href="mailto:elity.agency.ofm@gmail.com" style="color: #fff; text-decoration: underline;">elity.agency.ofm@gmail.com</a><br>
-    &copy; 2025 Elity Agency. Tous droits réservés.
-  </footer>
 </body>
 </html>
-
